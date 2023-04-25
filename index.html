@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário Soul Brasil  </title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Soul Brasil</h1>
+    </header>
+<main>
+           
+        <form action="/action_page.php">
+            <h2>Cadastro dos participantes</h2>
+            <h3> Dados pessoais:</h3>
+    <label for="fname">Nome Completo:</label><br>
+        <input type="text" id="fname" name="fname" value="" placeholder="Insira seu nome" required><br><br>
+
+         <label for="lname">RG:</label><br>
+        <input type="text" id="lname" name="lname" value="" placeholder="00.000.000-X" required maxlength="12"><br><br>
+
+        <label for="lname">CPF:</label><br>
+        <input type="text" id="lname" name="lname" value="" placeholder="000.000.000.00" required maxlength="14"><br><br>
+
+    <label for="lname">Data de nascimento:</label><br>
+        <input type="date" id="lname" name="lname" value=""><br><br>
+        <hr>
+            <h3> Dados de contato:</h3>
+    <label for="lname">E-mail:</label><br>
+        <input type="email" id="lname" name="lname" value="" placeholder="Insira seu e-mail" required><br><br>
+    <label for="lname">Telefone:</label><br>
+        <input type="text" id="lname" name="lname" value="" placeholder="+55 (00) 00000-0000" required maxlength="20"><br><br>
+    
+    <label> Estado: </label><br>
+    <select name="uf">
+        <option valve="QL">-</option>
+        <option valve="ES">Espírito Santo</option>
+        <option valve="MG">Minas Gerais</option>
+        <option valve="RJ">Rio de Janeiro </option>
+        <option valve="SP">São Paulo</option>
+        
+    </select><br><br>
+
+    <label for="lname">Cidade:</label><br>
+        <input type="text" id="lname" name="lname" value="" placeholder="Insira sua cidade" required><br><br>
+
+
+    <label for="lname"><strong>Endereço:</strong></label><br><br>
+        <label for="lname">CEP:</label><br>
+        <input type="text" id="lname" name="lname" value="" placeholder="00-000-000" required><br><br>
+        <label for="lname">Número da casa:</label><br>
+        <input type="text" id="lname" name="lname" value="" placeholder="Insira o número " required><br><br>
+    <hr>
+        <h3>Dados profissionais:</h3>
+    <label for="lname"><strong>Formação:</strong></label><br>
+    <input type="text" name="escola" size="40" required><br>
+    <label><strong>Categoria:</strong></label><br>
+    <label class=Categoria> Dança</label>
+    <input type="radio" name="Categoria" value="1">
+    <label class=Categoria> Teatro</label>
+    <input type="radio" name="Categoria" value="2">
+    <label class=Categoria> Música</label>
+    <input type="radio" name="Categoria" value="3">
+    <label class=Categoria> Pintura</label>
+    <input type="radio" name="Categoria" value="4">
+    <label class=Categoria> Circense</label>
+    <input type="radio" name="Categoria" value="5">
+    <label class=Categoria> Cinema</label>
+    <input type="radio" name="Categoria" value="6">
+    <label class=Categoria> Escultura</label>
+    <input type="radio" name="Categoria" value="7">
+    <label class=Categoria> Literatura</label>
+    <input type="radio" name="Categoria" value="8"><br>
+    
+      
+        <label><strong>Descrição das habilidades:</strong></label><br>
+        <textarea cols="70" rows="5"></textarea><br><br>
+
+        <input type="submit" name="btenviar" value="ENVIAR"><br><br>
+</form>
+
+
+    </main>
